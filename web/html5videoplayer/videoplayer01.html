@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Timed Text Track API</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>HTML5 Video Player</h1>
+            <p> W3Cx: HTML5.2x HTML5 Apps and Games  - Week 1: Advanced HTML5 Multimedia</p>
+        </header>
+        <main>
+            <!-- Hold the pictures of movies -->
+            <section id="posters">
+                <h2>Choose your movie (click on image):</h2>
+            </section>
+            <!-- Display selected video's information -->
+            <!--
+            <section id="descSec" class="hidden">
+                <div>
+                    <p>Press to close window: <button onclick="toggleVideoDescription();">X</button></p>
+                </div>
+                <div>
+                    <img src="https://www.blender.org/wp-content/uploads/2013/07/poster-elephantsdream.jpg?x83513"
+                        alt="Elephants Dream" class="bigImage">
+                    <h2>Elephants Dream [2006]</h2>
+                    <p>
+                        Project Orange was the Blender Foundation’s first open movie. The movie 
+                        started production in September 2005 and was premiered at the end of 
+                        March 2006. The ambitions and targets for Orange were set very high; 
+                        the character animation system had to be fully recoded, the rendering 
+                        system needed a lot of upgrades, and most of all: a node-based compositor 
+                        was required.
+                    </p>
+                    <p>
+                        Elephants Dream was co-produced with the Netherlands Media Art Institute, 
+                        who challenged the team to explore an abstract concept and storyline. 
+                        This 10 minute short shows two people who explore a strange mechanical 
+                        world, with each an entire own perception on what’s actually there. 
+                        The emotional ending shows once more the violent impact of mixing reality 
+                        and fantasy.
+                    </p>
+                </div>
+                <div id="descFooter">
+                    <p><a href="https://orange.blender.org/" target="_blank">Check out the project's web site</a><br>
+                    <button onclick="hideDescriptionSection();">Play Video in HTML5 player !</button></p>
+                </div>
+            </section>
+            -->
+            <!-- load selected video -->
+            <section id="playerSec" class="hidden">
+                <div id="player"></div>
+                <div id="transcript"></div>
+                <div id="controls">
+                    <p>Not implemented (yet)</p>
+                    <p>
+                        <button id="playPause" onclick="playPause();">Play</button>
+                        <!--<progress id="videoProg"></progress>-->
+                        <button id="stop" onclick="stop();">Stop</button>
+                        <button id="volDown" onclick="volDown();">Vol -</button>
+                        <!--<input type="range" min="0" max="1" step="0.1" id="volMeter"/></li>-->
+                        <button id="volUp" onclick="volUp();">Vol +</button>
+                        <!--<li><meter value="0" min="0" max="1" id="volMeter"></meter></li>-->
+                        <button id="muteUnmute" onclick="muteUnmute();">Mute</button></li>
+                        <button id="subtitles">Subtitles</button>
+                        <button id="chapters">chapters</button>
+                        <button id="transcript">transcript</button>
+                    </p>
+                </div>
+            </section>
+            <section id="info">
+                <div id="movieInfo">
+                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Developed and maintained by Ricardo Rosinha</p>
+            <p>
+                Contact me at <a href="https://www.facebook.com/ricardo.rosinha.52" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/in/ricardo-rosinha-ba79a6b/" target="_blank">Linkedin</a>
+            </p>
+        </footer>
+    </body>
+</html>

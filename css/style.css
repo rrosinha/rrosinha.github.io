@@ -22,6 +22,9 @@ body{
     align-items: center;
 }
 
+#RR{
+    margin-top:17px;
+}
 #ptFlag{
     position:absolute;
     top:10px;
