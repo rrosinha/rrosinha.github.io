@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 Video element - Optional Project</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>The HTML5 Video element</h1>
+        <p>Optional project for module 2 of the "HTML5 Coding Essentials and Best Practices" by <a href="https://w3cx.org/">W3Cx</a></p>
+    </header>
+    <main>
+        <div id="context">
+            <section id="addMovieSec">
+                <h2>Add a Movie to the list of movies</h2>
+                <label for="movName">Name: </label><input type="text" id="movName" placeholder="Name of the Movie"/>
+                <br />
+                <label for="movUrl">Movie URL: </label><input type="text" id="movUrl" placeholder="Full url (http://...)"/>
+                <br />
+                <label for="postUrl">Poster URL: </label><input type="text" id="postUrl" placeholder="Full url (http://...)"/>
+                <br />
+                <label for="movType">Movie Type: </label><input type="text" id="movType" placeholder="Type of file (mp4, ogg, webm, etc)"/>
+                <br />
+                <button id="saveMovie" onclick="saveMovieToList();">Save Movie</button>
+            </section>
+        
+            <section id="posters">
+                <h2>Choose your movie from the list</h2>
+                <ul>
+                    <!--
+                    Automatically populated by javscript
+                    -->
+                </ul>
+            </section>
+        </div>
+        <div id="viewers">
+            <!--
+            <section id="description">
+                Nice Section that could de used to diplay video information like copyright, metadata, etc.
+            </section>
+            -->
+            <section id="video">
+                <video id="vidPlayer">
+                    <p>Your Browser does not support the HTML5 Video feature.</p>
+                </video>
+                <ul id="controls">
+                    <li><progress id="videoProg"></progress></li>
+                    <li><button id="playPause" onclick="playPause();">Play</button></li>
+                    <li><button id="stop" onclick="stop();">Stop</button></li>
+                    <li><button id="volDown" onclick="volDown();">Vol -</button></li>
+                    <li><button id="volUp" onclick="volUp();">Vol +</button></li>
+                    <li><input type="range" min="0" max="1" step="0.1" id="volMeter"/></li>
+                    <!--<li><meter value="0" min="0" max="1" id="volMeter"></meter></li>-->
+                    <li><button id="muteUnmute" onclick="muteUnmute();">Mute</button></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer id="pageFooter">
+        <p>Developed and maintained by Ricardo Rosinha</p>
+        <p>
+            Contact me at <a href="https://www.facebook.com/ricardo.rosinha.52" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/ricardo-rosinha-ba79a6b/" target="_blank">Linkedin</a>
+        </p>
+    </footer>
+</body>
+</html>

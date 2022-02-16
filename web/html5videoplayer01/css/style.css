@@ -1,0 +1,122 @@
+﻿body {
+}
+
+/*** Page header ***/
+header {
+    background-color: #aa3939;
+    padding: 10px 15px 10px 15pX;
+    border-bottom: 10px solid #550000;
+    color: lightgray;
+}
+
+header h1, section h2{
+    margin:0;
+}
+
+header p{
+    margin-top:3px;
+}
+
+section h2{
+    padding:15px;
+}
+/*** Add Movies Section ***/
+#addMovieSec {
+    display: none;
+    min-height: 225px;
+    height: 250px;
+    max-height: 275px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #aa3939;
+}
+
+#addMovieSec label{
+    display:inline-block;
+    width:100px;
+    margin:5px;
+}
+
+#addMovieSec button{
+    margin-top:10px;
+}
+
+/*** Movie Posters Section ***/
+#posters {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    /*float: left;*/
+    min-height: 225px;
+    height:250px;
+    max-height: 275px;
+    /*overflow:auto;*/
+}
+
+#posters ul {
+    list-style-type: none;
+    margin:0;
+}
+
+#posters ul li{
+    margin:0;
+    padding-left:0;
+    display:inline-block;
+}
+
+#posters img{
+    width:100px;
+    margin:5px;
+    transition:all ease-in-out 0.5s;
+}
+
+#posters img:hover {
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    transform: scale(1.30);
+}
+
+#posters button{
+    vertical-align:middle;
+}
+
+/*** Video Player Section ***/
+#video{
+    margin-left:auto;
+    width:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color:#ffaaaa;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+#vidPlayer {
+    max-width: 1024px;
+    max-height: 436px;
+    background-color:#801515;
+}
+
+#video ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#video ul li {
+    margin: 0;
+    padding-left: 0;
+    display: inline-block;
+}
+
+/** Page Footer Section ***/
+footer {
+    clear: both;
+    margin: 0;
+    background-color: #aa3939;
+    border-top: 10px solid #550000;
+}
+
+footer p{
+    text-align: center;
+    margin:0;
+    padding:5px 15px 5px 15px;
+}

@@ -1,0 +1,114 @@
+body{
+  margin-left:auto;
+  width:70%;
+  margin-right:auto;
+}
+
+header, footer{
+  border: 1px solid black;
+  border-radius:10px;
+  background-color:#aa5585;
+  margin-bottom:10px;
+  padding-left:20px;
+}
+
+h1, h2, h3{
+  font-family: sans-serif;
+  margin:15px 0px 5px 0px;;
+  padding:0;
+}
+
+header h1{
+  color: #882d61;
+  text-shadow: 2px 2px 5px #de80e5;
+}
+
+header p{
+  margin-top:0;
+}
+
+nav{
+  font-family: sans-serif;
+  padding-left:0;
+  font-size:0.8rem;
+}
+
+nav ul{
+  list-style-type:none;
+  padding-left:0;
+  margin-left:0;
+}
+
+nav ul li{
+  display: inline-block;
+  border:2px solid black;
+  border-radius:4px;
+  padding:4px 15px;
+  margin-left:0;
+  margin-right:10px;
+  background-color:#cd88af;
+  font-weight:bold;
+}
+
+nav ul li:hover{
+  border:2px solid #de80e5;
+  background-color:black;
+  color:white;
+  cursor:pointer;
+}
+#mainContent{
+  background-color:#cd88af;
+  border: 1px solid black;
+  border-radius:10px;
+  margin-bottom:10px;
+  padding-left:20px;
+  padding-bottom:15px;
+}
+/*
+legend{
+  font-family: sans-serif;
+  font-size:0.8rem;
+}
+*/
+
+#showAllC, #insertC, #searchC, #deleteC{
+  display:none;
+}
+
+footer{
+  text-align:center;
+}
+
+footer p{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+/**** Table formatting ****/
+table{
+  margin-left:auto;
+  width:90%;
+  margin-right:auto;
+  border:1px solid whitesmoke;
+}
+
+thead{
+  background-color: #882d61;
+  color: white;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #de80e5;
+}
+
+tbody tr:nth-child(even){
+  background-color: #aa5585;
+}
+
+.delete{
+  color:white;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  cursor:pointer;
+}
